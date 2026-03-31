@@ -1,0 +1,3 @@
+C:/Users/cflow/Documents/Algoritmos/PruebaBacktracking/cmake-build-debug/CMakeFiles/PruebaBacktracking.dir
+C:/Users/cflow/Documents/Algoritmos/PruebaBacktracking/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/cflow/Documents/Algoritmos/PruebaBacktracking/cmake-build-debug/CMakeFiles/rebuild_cache.dir
