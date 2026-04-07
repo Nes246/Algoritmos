@@ -15,7 +15,7 @@ bool recorridoCaballo(int x, int y, int numMov);
 int main() {
 
     matriz[4][5] = 1;
-    if ((recorridoCaballo(4, 5, 2)) == false)
+    if ((recorridoCaballo(4, 5, 1)) == false)
         cout << "No se encontro solucion";
     else
         imprimirMatriz();
@@ -40,7 +40,7 @@ bool recorridoCaballo(int x, int y, int numMov) {
             int nuevoX = x + movimientosPosibles[i][0];
             int nuevoY = y + movimientosPosibles[i][1];
             if ((nuevoX <= 7 and nuevoY <= 7) and (nuevoX >= 0 and nuevoY >= 0) and matriz[nuevoX][nuevoY] == 0) {
-                matriz[nuevoX][nuevoY] = numMov;
+                matriz[nuevoX][nuevoY] = numMov + 1;
                 if ((recorridoCaballo(nuevoX, nuevoY, numMov + 1)) == true) return true;
                 else matriz[nuevoX][nuevoY] = 0;
             }
