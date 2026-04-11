@@ -4,32 +4,35 @@
 
 using namespace std;
 
-void BackTracking(int numero, int suma);
+
+void BackTracking(int pos, int sumaBuscada, int sumaActual, int numero, bool usados[]);
 
 int main() {
-
     int suma = 8;
-    int numero = 111;
+    bool usados[10] = {false};
 
-    BackTracking(numero, suma);
+    BackTracking(0, suma, 0, 0, usados);
 
     return 0;
 }
 
-void obtenerNumeros(int numero, int& a, int& b, int& c) {
-    a = numero/100;
-    b = (numero - a*100)/10;
-    c = (numero - a*100) - b*10;
-}
+void BackTracking(int pos, int sumaBuscada, int sumaActual, int numero, bool usados[]) {
+    if (sumaActual > sumaBuscada) return;
 
-void BackTracking(int numero, int suma) {
-    if (numero > 999) return;
-    int a, b, c;
-    obtenerNumeros(numero, a, b, c);
+    if (pos == 3) {
+        if (sumaActual == sumaBuscada) {
+            cout << numero << endl;
+        }
+        return;
+    }
 
-    if ((a != b and a != c and b != c) and (a + b + c == suma) and (a!=0 and b!=0 and c!=0))
-        cout << numero << endl;
+    for (int d = 1; d <= 9; d++) {
+        if (!usados[d]) {
+            usados[d] = true;
 
-    BackTracking(numero + 1, suma);
+            BackTracking(pos + 1, sumaBuscada, sumaActual + d, numero * 10 + d, usados);
 
+            usados[d] = false;
+        }
+    }
 }
