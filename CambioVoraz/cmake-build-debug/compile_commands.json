@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/vanes/Documents/Algoritmos/CambioVoraz/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.1\\bin\\mingw\\bin\\G__~1.EXE -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\CambioVoraz.dir\\main.cpp.obj -c C:\\Users\\vanes\\Documents\\Algoritmos\\CambioVoraz\\main.cpp",
+  "file": "C:/Users/vanes/Documents/Algoritmos/CambioVoraz/main.cpp",
+  "output": "C:/Users/vanes/Documents/Algoritmos/CambioVoraz/cmake-build-debug/CMakeFiles/CambioVoraz.dir/main.cpp.obj"
+}
+]

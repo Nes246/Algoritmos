@@ -1,0 +1,3 @@
+C:/Users/vanes/Documents/Algoritmos/CambioVoraz/cmake-build-debug/CMakeFiles/CambioVoraz.dir
+C:/Users/vanes/Documents/Algoritmos/CambioVoraz/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/vanes/Documents/Algoritmos/CambioVoraz/cmake-build-debug/CMakeFiles/rebuild_cache.dir
