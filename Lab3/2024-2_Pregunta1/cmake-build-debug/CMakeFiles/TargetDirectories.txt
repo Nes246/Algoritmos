@@ -1,0 +1,3 @@
+C:/Users/vanes/Documents/Algoritmos/Lab3/2024-2_Pregunta1/cmake-build-debug/CMakeFiles/2024_2_Pregunta1.dir
+C:/Users/vanes/Documents/Algoritmos/Lab3/2024-2_Pregunta1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/vanes/Documents/Algoritmos/Lab3/2024-2_Pregunta1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
