@@ -1,5 +1,0 @@
-1. Para la pregunta 1 del 2025-2, los casos de prueba estan mal, para el primero no hay solucion
-y para el segundo falta una linea (te dice que son 6 regiones pero solo ponen datos de 5, 
-se puede hallar pero seria una perdida de tiempo), la linea que falta sería (5 2 1 1 1 2)
-
-2. El makespan en la pregunta 2 del 2025-2 es 11
