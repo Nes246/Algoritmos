@@ -1,1 +1,1 @@
-2025-2 Pregunta3b - Está mal, lo resolvi con voraz y no dp
+2025-2 Pregunta3 - Está mal, lo resolvi con voraz y no dp
