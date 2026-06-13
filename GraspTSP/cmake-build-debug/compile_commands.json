@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/vanes/Documents/GraspTSP/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\GraspTSP.dir\\main.cpp.obj -c C:\\Users\\vanes\\Documents\\GraspTSP\\main.cpp",
+  "file": "C:/Users/vanes/Documents/GraspTSP/main.cpp",
+  "output": "C:/Users/vanes/Documents/GraspTSP/cmake-build-debug/CMakeFiles/GraspTSP.dir/main.cpp.obj"
+}
+]
