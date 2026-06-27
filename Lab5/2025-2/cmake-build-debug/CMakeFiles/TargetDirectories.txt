@@ -1,0 +1,3 @@
+C:/Users/vanes/Documents/Algoritmos/Lab5/2025-2/cmake-build-debug/CMakeFiles/2025_2.dir
+C:/Users/vanes/Documents/Algoritmos/Lab5/2025-2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/vanes/Documents/Algoritmos/Lab5/2025-2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
